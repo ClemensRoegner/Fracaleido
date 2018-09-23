@@ -1,0 +1,18 @@
+////////////////////////////////////////////////////////////////////////////////////////
+//
+// GLM and some convinient renaming
+//
+////////////////////////////////////////////////////////////////////////////////////////
+
+#pragma once
+
+#define GLM_FORCE_INLINE
+#define GLM_FORCE_SSE2
+#include "glm\glm.hpp"
+#include "glm\gtc\matrix_transform.hpp"
+
+using namespace glm;
+
+typedef vec2 float2;
+typedef vec3 float3;
+typedef vec4 float4;
